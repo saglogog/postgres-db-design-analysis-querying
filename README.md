@@ -11,19 +11,23 @@ The following is a DVD seller database that stores sales and orders data. The re
 
  Using the above schema as well as a large dataset with real (anonymized) data the following problems need to be solved:
 
- ## 1. Database Design
- 
-1. Insert the data. The DB should follow the relational schema given. The deliverable are the queries and the files used for the data entry (see **1_1.sql** for answer and sample customers table below).
+ ## 1. Database Design and queries
+**1.** Insert the data. The DB should follow the relational schema given. The deliverable are the queries and the files used for the data entry (see **1_1.sql** for answer and sample customers table below).
 
-  ![customers table](resources/images/1_1_sample_customers.png)
+![customers table](resources/images/1_1_sample_customers.png)
 
-2. Remodel the database using the object-relational database model.  Following the creation of he necessary collections, types and tables implement the necessary PL/SQL scripts in order to populate the object-relational tables from the corresponding relational ones.
+**2.** Remodel the database using the object-relational database model.  Following the creation of he necessary collections, types and tables implement the necessary PL/SQL scripts in order to populate the object-relational tables from the corresponding relational ones.
 
     Submit the UML diagram of the object relational database as well as the PL/SQL scripts.
 
     The UML diagram is as follows:
 
-  ![object relational UML diagram](resources/images/1_2_uml.png)
+![object relational UML diagram](resources/images/1_2_uml.png)
+
+**3.** Make the following queries:
+- What are the two (or more in case of a draw) products that have the most and least buyers? The result should return the product id and the number of buyers.
+
+- Who is the client (or more in case of a draw) that has the order with most distinct DVD categories? The result should return the customer id and the number of DVD categories.
 
 ## 2. B+ Trees - Indices
 Consider the last 20 records of the table Products. Assume that you are building a *B+ tree index* where *n=5* for the *primary key prod_id* of the table Products. Also assume that the tree is initially empty and that the keys are added one by one in the order that the records where input. Show the B+ tree structure after the insertion of each key:

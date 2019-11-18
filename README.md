@@ -25,6 +25,7 @@ The following is a DVD seller database that stores sales and orders data. The re
 ![object relational UML diagram](resources/images/1_2_uml.png)
 
 **3.** Make the following queries:
+
 - What are the two (or more in case of a draw) products that have the most and least buyers? The result should return the product id and the number of buyers.
 
 - Who is the client (or more in case of a draw) that has the order with most distinct DVD categories? The result should return the customer id and the number of DVD categories.

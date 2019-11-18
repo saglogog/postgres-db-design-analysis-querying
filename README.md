@@ -28,7 +28,7 @@ The following is a DVD seller database that stores sales and orders data. The re
 Consider the last 20 records of the table Products. Assume that you are building a *B+ tree index* where *n=5* for the *primary key prod_id* of the table Products. Also assume that the tree is initially empty and that the keys are added one by one in the order that the records where input. Show the B+ tree structure after the insertion of each key:
 
 **Step 1**: The first four values are inserted in the first node as such: 
-![step 1](resources/images/b_trees/step_(1).png)
+![step 1]("resources/images/b_trees/step_(1).png")
 
 **Step 2**: The key 9985 doesn't fit in the node so the height of the tree is increased by one and the median value becomes the root:  
 ![step 2](resources/images/b_trees/step_(2).png)

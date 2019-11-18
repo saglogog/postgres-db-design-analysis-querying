@@ -11,7 +11,7 @@ The following is a DVD seller database that stores sales and orders data. The re
 
  Using the above schema as well as a large dataset with real (anonymized) data the following problems need to be solved:
 
- ## 1. Database Design and queries
+## 1. Database Design and queries
 **1.** Insert the data. The DB should follow the relational schema given. The deliverable are the queries and the files used for the data entry (see **1_1.sql** for answer and sample customers table below).
 
 ![customers table](resources/images/1_1_sample_customers.png)

@@ -14,7 +14,7 @@ The following is a DVD seller database that stores sales and orders data. The re
  ## 1. Database Design
 1. Insert the data. The DB should follow the relational schema given. The deliverable are the queries and the files used for the data entry (see **1_1.sql** for answer and sample customers table below).
 
-    ![customers table](resources/images/1_1_sample_customers.png)
+  ![customers table](resources/images/1_1_sample_customers.png)
 
 2. Remodel the database using the object-relational database model.  Following the creation of he necessary collections, types and tables implement the necessary PL/SQL scripts in order to populate the object-relational tables from the corresponding relational ones.
 
@@ -22,7 +22,7 @@ The following is a DVD seller database that stores sales and orders data. The re
 
     The UML diagram is as follows:
 
-    ![object relational UML diagram](resources/images/1_2_uml.png)
+  ![object relational UML diagram](resources/images/1_2_uml.png)
 
 ## 2. B+ Trees - Indices
 Consider the last 20 records of the table Products. Assume that you are building a *B+ tree index* where *n=5* for the *primary key prod_id* of the table Products. Also assume that the tree is initially empty and that the keys are added one by one in the order that the records where input. Show the B+ tree structure after the insertion of each key:
